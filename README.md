@@ -48,7 +48,7 @@ Follow these steps to set up your development environment:
 Here's a brief overview of the project structure and how to use it:
 
 - **`src/`**: Contains the source code of the project.
-- **src/lib/**: Contains the shared code that can be used across the app.
+- **`src/lib/`**: Contains the shared code that can be used across the app.
 - **`static/`**: Static assets.
 
 Feel free to explore and modify the code to fit your project's requirements.
