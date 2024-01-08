@@ -3,8 +3,8 @@
 Welcome to the SvelteStarterKit! This repository serves as a starting point for your projects. It comes packed with essential features and a carefully selected tech stack to boost your development process.
 
 [![License](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
-[![GitHub Issues](https://img.shields.io/github/issues/yourusername/awesome-project)](https://github.com/yourusername/awesome-project/issues)
-[![GitHub Stars](https://img.shields.io/github/stars/yourusername/awesome-project)](https://github.com/yourusername/awesome-project/stargazers)
+[![GitHub Issues](https://img.shields.io/github/issues/glazk0/svelte-starter-kit)](https://github.com/glazk0/svelte-starter-kit/issues)
+[![GitHub Stars](https://img.shields.io/github/stars/glazk0/svelte-starter-kit)](https://github.com/glazk0/svelte-starter-kit/stargazers)
 
 ## Table of Contents
 
