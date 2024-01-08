@@ -1,38 +1,73 @@
-# create-svelte
+# SvelteStarterKit
 
-Everything you need to build a Svelte project, powered by [`create-svelte`](https://github.com/sveltejs/kit/tree/main/packages/create-svelte).
+Welcome to the SvelteStarterKit! This repository serves as a starting point for your projects. It comes packed with essential features and a carefully selected tech stack to boost your development process.
 
-## Creating a project
+[![License](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
+[![GitHub Issues](https://img.shields.io/github/issues/yourusername/awesome-project)](https://github.com/yourusername/awesome-project/issues)
+[![GitHub Stars](https://img.shields.io/github/stars/yourusername/awesome-project)](https://github.com/yourusername/awesome-project/stargazers)
 
-If you're seeing this, you've probably already done this step. Congrats!
+## Table of Contents
 
-```bash
-# create a new project in the current directory
-npm create svelte@latest
+- [Installation](#installation)
+- [Usage](#usage)
+- [Features](#features)
+- [Contributing](#contributing)
+- [License](#license)
 
-# create a new project in my-app
-npm create svelte@latest my-app
-```
+## Installation
 
-## Developing
+Follow these steps to set up your development environment:
 
-Once you've created a project and installed dependencies with `npm install` (or `pnpm install` or `yarn`), start a development server:
+1. **Clone the repository:**
 
-```bash
-npm run dev
+    ```bash
+    git clone https://github.com/glazk0/svelte-starter-kit.git
+    cd svelte-starter-kit
+    ```
 
-# or start the server and open the app in a new browser tab
-npm run dev -- --open
-```
+2. **Install dependencies:**
 
-## Building
+    ```bash
+    npm install  # or yarn install or pnpm install
+    ```
 
-To create a production version of your app:
+3. **Configure environment variables:**
 
-```bash
-npm run build
-```
+    Duplicate the `.env.example` file and rename it to `.env`. Update the values as needed.
 
-You can preview the production build with `npm run preview`.
+4. **Run the application:**
 
-> To deploy your app, you may need to install an [adapter](https://kit.svelte.dev/docs/adapters) for your target environment.
+    ```bash
+    npm run dev  # or yarn dev or pnpm dev
+    ```
+
+    Your app will be running at [http://localhost:5173](http://localhost:5173).
+
+## Usage
+
+Here's a brief overview of the project structure and how to use it:
+
+- **`src/`**: Contains the source code of the project.
+- **src/lib/**: Contains the shared code that can be used across the app.
+- **`static/`**: Static assets.
+
+Feel free to explore and modify the code to fit your project's requirements.
+
+## Features
+
+- 🚀 Easy installation and setup.
+- 📦 Bundled with a powerful tech stack:
+  - SvelteKit for the frontend framework.
+  - DrizzleORM for the database.
+  - LuciaAuth for the authentication.
+  - TailwindCSS for the styling.
+
+## Contributing
+
+I welcome contributions from the community! If you have suggestions, bug reports, or want to contribute new features, please open an issue or submit a pull request.
+
+## License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
+Happy coding! 🚀
