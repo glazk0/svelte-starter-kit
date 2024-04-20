@@ -24,8 +24,8 @@
 		"pg": "^8.11.3"
 	},
 	"devDependencies": {
-		"@sveltejs/adapter-node": "^2.1.2",
-		"@sveltejs/kit": "^2.0.0",
+		"@sveltejs/adapter-node": "^2.0.2",
+		"@sveltejs/kit": "^2.4.3",
 		"@sveltejs/vite-plugin-svelte": "^3.0.0",
 		"@types/eslint": "8.56.0",
 		"@types/pg": "^8.10.9",
